@@ -7,20 +7,20 @@ class Nownow < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/nownow-labs/nownow/releases/download/v0.1.0/nownow_darwin_arm64.tar.gz"
-      sha256 "aa70fbacfa834a4823da8bf64f35dfa8d23f33af0f47e21438b0b55d3996c8d5"
+      sha256 "1ed6d538819aa9a0e40231879623a0a7b57edda58b7f2e26ebb0180960895ca4"
     else
       url "https://github.com/nownow-labs/nownow/releases/download/v0.1.0/nownow_darwin_amd64.tar.gz"
-      sha256 "1361fa79a246e116039d12dacd4d3c207e8a5636b322ac4d4006bef2f1be92d1"
+      sha256 "19b729dec0f2b32c3828b8b024056a51c22fb30310cde68cd553ca8293d2ed40"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/nownow-labs/nownow/releases/download/v0.1.0/nownow_linux_arm64.tar.gz"
-      sha256 "496e5ddde64907be00ed5c6725166353c0aa23f7d169b1f0385a592cfe61276c"
+      sha256 "c28b6a0ee3745c7b8dd1ee74f2f994d41b8674d574f7fe886a1e293970bd58cf"
     else
       url "https://github.com/nownow-labs/nownow/releases/download/v0.1.0/nownow_linux_amd64.tar.gz"
-      sha256 "c9ca2390f975abe0865e03b838b21c125f718a3cb3f8332fde2103685e3acc71"
+      sha256 "f71a4930ae43ce532310439b035f284159364e1a38b039df8acc0ede7961185c"
     end
   end
 
